@@ -1,0 +1,91 @@
+*{
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-color: : #b0cbf5;
+}
+h2{
+	text-align: center;
+	font-size: 50px;
+	color: #35a6de;
+
+}
+
+form{
+	margin: 20px auto;
+	width: 320px;
+	color: #35a6de;
+}
+
+input{
+	padding: 10px;
+	font-size: inherit;
+}
+
+input[type="text"] {
+   display = block;
+   margin-bottom: 25px;
+   width: 100%;
+   border: 2px solid #35a6de;
+   }
+
+
+input[type="email"] {
+   display = block;
+   margin-bottom: 25px;
+   width: 100%;
+   border: 2px solid #35a6de;
+   }
+
+  input[type="password"] {
+   display = block;
+   margin-bottom: 25px;
+   width: 100%;
+   border: 2px solid #35a6de;
+   }
+
+   input[type="checkbox"]{
+   	margin: 0 8px 25px 18px;
+   }
+
+   input[type="checkbox"]:first child{
+   	 margin left: 0px;
+   }
+
+  *footer{
+  	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: red;
+  	color: white;
+  	text-align: center;
+  }
+
+ /* body {
+  background: rgb(204,204,204); 
+}*/
+table.table-bordered{
+    border:1px solid black;
+    margin-top:20px;
+  }
+table.table-bordered > thead > tr > th{
+    border:1px solid black;
+}
+table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+}
+
+.borderless table {
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none;
+}
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
